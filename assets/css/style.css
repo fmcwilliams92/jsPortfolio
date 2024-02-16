@@ -1,3 +1,16 @@
+/* whole website */
+
+
+/* header */
 .headerOne {
   background-color: green;
+}
+
+/* body */
+.bodyMain {
+  background-color: black;
+}
+
+#intro {
+  color: white;
 }

@@ -1,1 +1,3 @@
-document.getElementById('headerOne') = "hi"
+var headerName = document.getElementById("name");
+
+headerName.style.color = "red";
