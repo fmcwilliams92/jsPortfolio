@@ -2,8 +2,15 @@
 
 
 /* header */
-.headerOne {
-  background-color: green;
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: blue;
+}
+
+.headerList {
+  list-style-type: none;
 }
 
 /* body */
