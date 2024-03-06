@@ -1,6 +1,7 @@
 /* whole website */
 :root {
   --primary-color: lightblue;
+  --secondary-color: darkblue;
 }
 
 /* header */
@@ -10,6 +11,9 @@
   flex-wrap: wrap;
   background-color: var(--primary-color);
   align-items: center;
+  border: 15px;
+  border-color: var(--secondary-color);
+  border-bottom: 10px;
 }
 
 .headerList {
@@ -26,9 +30,11 @@
 
 #intro {
   color: black;
+  border-color: var(--secondary-color);
 }
 
 /* footer */
 .footerMain {
   background-color: lightblue;
+  padding: 1%;
 }
