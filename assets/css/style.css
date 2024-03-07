@@ -40,6 +40,24 @@
   border-color: var(--secondary-color);
 }
 
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#gitHub {
+  border: 1px solid black;
+}
+
+#linkedIn {
+  border: 1px solid black;
+}
+
+#instagram {
+  border: 1px solid black;
+}
+
 /* footer */
 .footerMain {
   padding: 1%;
