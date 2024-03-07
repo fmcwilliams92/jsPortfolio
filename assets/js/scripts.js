@@ -20,5 +20,12 @@ linkedIn.addEventListener("click", function() {
 var instagram = document.getElementById("instagram");
 instagram.addEventListener("click", function() {
   alert("Instagram button has been clicked")
-  console.log(instagram, "booooootcamp")
+  console.log(instagram, "testing, this has been clicked. working on debugging")
 });
+
+/* function to show personal contact information */
+var contactMe = document.getElementById("contactMe");
+contactMe.addEventListener("click", function() {
+  alert("email: fredmcwilliams92@gmail.com.\n" +
+        "phone: please email for cell info")
+})
