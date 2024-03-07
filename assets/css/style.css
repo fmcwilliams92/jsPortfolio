@@ -26,7 +26,7 @@
   list-style-type: none;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 60%;
+  width: 40%;
   align-items: right;
 }
 
@@ -44,6 +44,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+#skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 1%;
 }
 
 #gitHub {
