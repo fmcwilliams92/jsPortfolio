@@ -1,9 +1,9 @@
+
 // this is a placeholder to ensure the page is linked
 var headerName = document.getElementById("name");
 headerName.style.color = "black";
 
 // functions to show you clicked on the social media links
-
 /* github link */
 var gitHub = document.getElementById("gitHub");
 gitHub.addEventListener("click", function() {
